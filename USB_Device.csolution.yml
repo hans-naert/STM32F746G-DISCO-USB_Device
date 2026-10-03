@@ -25,7 +25,7 @@ solution:
       target-set:
         - set:
           images:
-            - project-context: HID.Debug
+            - project-context: VirtualCOM.Debug
       variables:
         - Board-Layer: $SolutionDir()$/Board/STM32F746G-DISCO/Board.clayer.yml
           copied-from: ${CMSIS_PACK_ROOT}/Keil/STM32F746G-DISCO_BSP/1.1.1/Layers/Default/Board.clayer.yml
